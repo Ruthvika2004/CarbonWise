@@ -23,7 +23,7 @@ function CarbonCalculator() {
 
     if (domesticChoice === "electricity") {
       const { kwh, people } = electricityData;
-      calculatedEmissions += kwh * 0.5 + people * 10; // Example calculation
+      calculatedEmissions += kwh * 0.5; // Example calculation
     } else if (domesticChoice === "diet") {
       if (dietChoice === "veg") {
         calculatedEmissions += 200; // Example emissions for vegetarian diet
