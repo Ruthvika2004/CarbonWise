@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carbon Footprint Tracker</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <h1>Carbon Footprint Tracker</h1>
+  
+  <h2>Register</h2>
+  <input type="text" id="name" placeholder="Enter your name" />
+  <button onclick="registerUser()">Register User</button>
+  <br><br>
+  
+  <h2>Add Footprint</h2>
+  <input type="number" id="footprint" placeholder="Add carbon footprint" />
+  <button onclick="addFootprint()">Add Footprint</button>
+  <br><br>
+  
+  <h2>Add Credits</h2>
+  <input type="number" id="credits" placeholder="Add carbon credits" />
+  <button onclick="addCredits()">Add Credits</button>
+  <br><br>
+  
+  <h2>Get User Info</h2>
+  <button onclick="getUserInfo()">Get User Info</button>
+  <p id="userInfo"></p>
+</body>
+</html>
