@@ -1,0 +1,197 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  color: #f8f8f8;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.app-container {
+  padding-top: 4rem;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #202020;
+}
+
+.hero-section h1 {
+  color: #5dd62c;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  color: #f8f8f8;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Calculator Container */
+.calculator-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #202020;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.calculator-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.calculator-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #0f0f0f;
+  border-radius: 8px;
+}
+
+/* Options and Buttons */
+.options-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.option-button {
+  flex: 1;
+  padding: 1rem;
+  background-color: #202020;
+  border: 1px solid #5dd62c;
+  border-radius: 8px;
+  color: #f8f8f8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.option-button.active {
+  background-color: #337418;
+  border-color: #337418;
+}
+
+.option-icon {
+  font-size: 1.5rem;
+}
+
+/* Form Elements */
+input,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #202020;
+  border: 1px solid #5dd62c;
+  border-radius: 4px;
+  color: #f8f8f8;
+  margin-top: 0.5rem;
+}
+
+/* Results Section */
+.results-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #0f0f0f;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.emissions-display {
+  margin: 1rem 0;
+}
+
+.emissions-value {
+  font-size: 2.5rem;
+  color: #5dd62c;
+  font-weight: bold;
+}
+
+.emissions-unit {
+  font-size: 1.2rem;
+  color: #f8f8f8;
+  margin-left: 0.5rem;
+}
+
+/* Buttons */
+.calculate-button,
+.offset-button,
+.learn-more-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.calculate-button {
+  background-color: #5dd62c;
+  color: #0f0f0f;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.calculate-button:hover {
+  background-color: #337418;
+  color: #f8f8f8;
+}
+
+/* Info Grid */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #202020;
+  margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .calculator-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .options-container {
+    flex-direction: column;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}
+
+.domestic-diet {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 450px;
+}
+
+.domestic-electricity {
+  margin-top: 10px;
+}
+
+#Hi {
+  margin-top: 10px;
+}
